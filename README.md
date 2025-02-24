@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Full Stack AI Career Coach
 
-## Getting Started
+Welcome to the Full Stack AI Career Coach project—a comprehensive, AI-powered career coaching platform designed to guide you through your professional journey. This application combines state-of-the-art technologies to offer personalized industry insights, resume and cover letter building, and mock interview preparation with interactive quizzes.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Running the Application](#running-the-application)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+This project is built using modern web technologies:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **React 19** and **Next.js 15** for building a dynamic, high-performance frontend and backend.
+- **Tailwind CSS** for rapid UI development and responsive design.
+- **NeonDB** as our cloud-native database solution.
+- **Prisma** for seamless ORM and database management.
+- **Clerk Authentication** to manage secure user authentication.
+- **Inngest** for background job processing and automation.
+- **Gemini API** to deliver real-time AI-powered industry insights.
+- **Shadcn UI** for a consistent and beautiful component library.
 
-## Learn More
+The platform empowers users with:
 
-To learn more about Next.js, take a look at the following resources:
+- **Industry Insights**: Access detailed market outlooks, growth trends, demand analysis, top skills, salary ranges, and more for your chosen industry.
+- **Resume Builder**: Craft and customize your professional resume with ease.
+- **Cover Letter Builder**: Create compelling cover letters using intuitive tools and templates.
+- **Mock Interview Preparation**: Practice with simulated interview questions and interactive quizzes to boost your confidence.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **User Authentication**: Secure sign-up and login powered by Clerk.
+- **Industry Insights Dashboard**: Choose your industry and get actionable insights including market trends, growth statistics, in-demand skills, and salary benchmarks.
+- **Resume Builder**: Intuitive drag-and-drop interface with customizable templates.
+- **Cover Letter Builder**: Template-driven design for crafting personalized cover letters.
+- **Interview Prep**: Mock interviews and quizzes to prepare you for real-world scenarios.
+- **Background Processing**: Automate tasks and data processing with Inngest.
+- **Responsive Design**: Fully responsive UI built with Tailwind CSS and Shadcn UI.
 
-## Deploy on Vercel
+## Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Frontend**: React 19, Next.js 15, Tailwind CSS, Shadcn UI
+- **Backend**: Next.js API Routes, Prisma ORM, NeonDB
+- **Authentication**: Clerk Authentication
+- **Background Jobs**: Inngest
+- **AI & Data Integration**: Gemini API
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v16 or higher)
+- npm or yarn
+- Git
